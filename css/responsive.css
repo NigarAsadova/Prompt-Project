@@ -1,0 +1,65 @@
+@media screen and (min-width:1024px){
+
+    .list-logo{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px){
+    .contact-info{
+        display: block;
+    }
+
+    .address-info{
+        max-width: 100%;;
+    } 
+    
+    .links-container{
+        width: 100%;
+    }
+
+    .links-container{
+        margin: 0;
+    }
+
+    .what-we-do-item,.interesting-article {
+        flex: 0 0 calc(50% - 1rem);
+    }
+
+    .what-we-do-container, .interesting-article-container{
+        flex-wrap: wrap;
+    }
+
+    .website-project{
+        flex: 0 0 100%;
+    }
+
+    .customers-info{
+        display: block;
+    }
+
+    .nav-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px){
+    .what-we-do-item,.interesting-article {
+        flex: 0 0 100%;
+    }
+    .pr-gray-foot .custom-container{
+        max-width: 640px;
+        padding: 0 16px;
+    }
+    .what-we-do-container, .interesting-article-container{
+        flex-wrap: wrap;
+    }
+    .social-media-side{
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px){
+    .custom-container{
+        width: 100%;
+    }
+}
